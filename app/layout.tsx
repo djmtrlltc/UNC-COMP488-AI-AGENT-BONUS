@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MyAI3",
-  description: "MyAI3",
+  title: "TruckersMP Support AI ChatBot",
+  description: "TruckersMP Support AI ChatBot",
 };
 
 export default function RootLayout({

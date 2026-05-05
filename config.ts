@@ -30,7 +30,7 @@ function getDateAndTime(): string {
 
 export const DATE_AND_TIME = getDateAndTime();
 
-export const AI_NAME = "TruckersMP Support Bot";
+export const AI_NAME = "TruckersMP Support AI ChatBot";
 export const OWNER_NAME = "djmtrlltc";
 
 export const WELCOME_MESSAGE = `Hi! I'm ${AI_NAME}. I primarily rely on TruckersMP Knowledge Base articles to help troubleshoot issues, and I’ll include source links when relevant.`;
