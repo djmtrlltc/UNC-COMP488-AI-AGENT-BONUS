@@ -17,7 +17,7 @@ import { ArrowUp, Eraser, Loader2, Plus, PlusIcon, Square } from "lucide-react";
 import { MessageWall } from "@/components/messages/message-wall";
 import { ChatHeader } from "@/app/parts/chat-header";
 import { ChatHeaderBlock } from "@/app/parts/chat-header";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { UIMessage } from "ai";
 import { useEffect, useState, useRef } from "react";
 import { AI_NAME, CLEAR_CHAT_TEXT, OWNER_NAME, WELCOME_MESSAGE } from "@/config";
@@ -147,7 +147,14 @@ export default function Chat() {
                 <Avatar
                   className="size-8 ring-1 ring-primary"
                 >
-                  <AvatarImage src="https://static.truckersmp.com/avatarsN/3168097.1589963777.png" />
+                  <Image
+                    src="https://static.truckersmp.com/avatarsN/3168097.1589963777.png"
+                    alt="djmtrlltc TruckersMP avatar"
+                    width={32}
+                    height={32}
+                    className="aspect-square size-full"
+                    referrerPolicy="no-referrer"
+                  />
                   <AvatarFallback>
                     <Image src="/logo.png" alt="Logo" width={36} height={36} />
                   </AvatarFallback>
